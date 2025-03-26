@@ -4,7 +4,7 @@ TERM = "xterm-256color"
 
 [window]
 option_as_alt = "OnlyLeft"
-padding.x = 6
+padding.x = 16
 padding.y = 12
 
 decorations = "Buttonless"
@@ -13,17 +13,15 @@ opacity = 1
 blur = true
 
 [cursor]  
-style = { shape = "Beam", blinking = "Always" }
-thickness = 0.4
-blink_interval = 850
-blink_timeout = 120
+style = { shape = "Underline", blinking = "Never" }
+thickness = 0.35
 
 [mouse]
 hide_when_typing = false
 
 
 [font]
-size = 13
+size = 17
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
