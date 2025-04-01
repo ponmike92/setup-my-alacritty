@@ -7,8 +7,8 @@ background = "#202020"
 
 [window]
 option_as_alt = "OnlyLeft"
-padding.x = 16
-padding.y = 12
+padding.x = 26
+padding.y = 18
 
 decorations = "Buttonless"
 
